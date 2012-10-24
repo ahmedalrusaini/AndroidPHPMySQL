@@ -13,13 +13,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84fed766-89d0-4b61-a54e-85548399a337" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/EditProductActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/EditProductActivity$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/EditProductActivity$DeleteProduct.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/EditProductActivity$GetProductDetails$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/EditProductActivity$GetProductDetails.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/EditProductActivity$SaveProductDetails.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/EditProductActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/JSONParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/MainScreenActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/MainScreenActivity$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/MainScreenActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/NewProductActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/NewProductActivity$CreateNewProduct.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/NewProductActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/R$menu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/AndroidPHPMySQL/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/AndroidPHPMySQL/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/AndroidPHPMySQL/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/AndroidPHPMySQL/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/menu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidPHPMySQL.iml" afterPath="$PROJECT_DIR$/AndroidPHPMySQL.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/R.java" afterPath="$PROJECT_DIR$/gen/com/example/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/AllProductsActivity.java" afterPath="$PROJECT_DIR$/src/com/example/AllProductsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/MainScreenActivity.java" afterPath="$PROJECT_DIR$/src/com/example/MainScreenActivity.java" />
     </list>
     <ignored path="AndroidPHPMySQL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -464,7 +493,11 @@
       <created>1351017848274</created>
       <updated>1351017848274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added options menu">
+      <created>1351095204701</created>
+      <updated>1351095204701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -491,7 +524,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.77790177" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -506,7 +539,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24906467" sideWeight="0.8214286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24906467" sideWeight="0.8214286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22209822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -553,7 +586,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed manifest file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added options menu" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -568,6 +601,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Android app using PHP and MySQL" />
     <MESSAGE value="changed manifest file" />
+    <MESSAGE value="added options menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

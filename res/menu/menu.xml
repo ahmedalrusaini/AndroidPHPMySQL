@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:id="@+id/view_products" android:title="View Products"
+                    android:alphabeticShortcut="a"/>
+
+            <item android:id="@+id/add_product" android:title="Add Product"
+                    android:alphabeticShortcut="b"/>
+
+
+</menu>
