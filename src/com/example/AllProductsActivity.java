@@ -59,7 +59,7 @@ public class AllProductsActivity extends ListActivity {
 		// Get listview
 		ListView lv = getListView();
 
-		// on seleting single product
+		// on selecting single product
 		// launching Edit Product Screen
 		lv.setOnItemClickListener(new OnItemClickListener() {
 
