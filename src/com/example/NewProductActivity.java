@@ -3,6 +3,8 @@ package com.example;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
@@ -128,4 +130,30 @@ public class NewProductActivity extends Activity {
 		}
 
 	}
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        MenuInflater blowUp = getMenuInflater();
+        blowUp.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.view_products:
+                Intent i = new Intent(getApplicationContext(), AllProductsActivity.class);
+                startActivity(i);
+                break;
+            case R.id.add_product:
+                Intent intent = new Intent(getApplicationContext(), NewProductActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.home:
+                Intent main = new Intent(getApplicationContext(), MainScreenActivity.class);
+                startActivity(main);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

@@ -68,6 +68,10 @@ public class MainScreenActivity extends Activity{
                 Intent intent = new Intent(getApplicationContext(), NewProductActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.home:
+                Intent main = new Intent(getApplicationContext(), MainScreenActivity.class);
+                startActivity(main);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
