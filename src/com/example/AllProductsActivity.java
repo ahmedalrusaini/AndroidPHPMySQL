@@ -6,6 +6,7 @@ import java.util.List;
 
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.*;
 import org.apache.http.NameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -18,12 +19,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
-import android.widget.TextView;
 
 public class AllProductsActivity extends ListActivity {
 
@@ -177,28 +173,34 @@ public class AllProductsActivity extends ListActivity {
 		/**
 		 * After completing background task Dismiss the progress dialog
 		 * **/
-		protected void onPostExecute(String file_url) {
+
+ 		protected void onPostExecute(String file_url) {
 			// dismiss the dialog after getting all products
 			pDialog.dismiss();
+
+
 			// updating UI from Background Thread
 			runOnUiThread(new Runnable() {
-				public void run() {
-					/**
-					 * Updating parsed JSON data into ListView
-					 * */
-					ListAdapter adapter = new SimpleAdapter(
-							AllProductsActivity.this, productsList,
-							R.layout.list_item, new String[] { TAG_PID,
-									TAG_NAME},
-							new int[] { R.id.pid, R.id.name });
-					// updating listview
-					setListAdapter(adapter);
-				}
-			});
+                public void run() {
+                    /**
+                     * Updating parsed JSON data into ListView
+                     * */
+                    ListAdapter adapter = new SimpleAdapter(
+                            AllProductsActivity.this, productsList,
+                            R.layout.list_item, new String[]{TAG_PID,
+                            TAG_NAME},
+                            new int[]{R.id.pid, R.id.name});
+                    // updating listview
+                    setListAdapter(adapter);
+                }
+            });
 
 		}
 
 	}
+
+
+    //Display the Option menu when pressing the Menu button from the device
     @Override
     public boolean onCreateOptionsMenu(android.view.Menu menu) {
         super.onCreateOptionsMenu(menu);
@@ -206,7 +208,6 @@ public class AllProductsActivity extends ListActivity {
         blowUp.inflate(R.menu.menu, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){

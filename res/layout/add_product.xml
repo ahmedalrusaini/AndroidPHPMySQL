@@ -20,7 +20,8 @@
 	    android:layout_height="wrap_content"
 	    android:layout_margin="5dip"
 	    android:layout_marginBottom="15dip"
-	    android:singleLine="true"/>
+	    android:singleLine="true"
+        android:hint="Enter a product name"/>
 	
 	<!-- Price Label -->
     <TextView android:layout_width="fill_parent"
@@ -38,7 +39,8 @@
 	    android:layout_margin="5dip"
 	    android:layout_marginBottom="15dip"
 	    android:singleLine="true"
-	    android:inputType="numberDecimal"/>
+	    android:inputType="numberDecimal"
+        android:hint="Price"/>
 	
 	<!-- Description Label -->
     <TextView android:layout_width="fill_parent"
@@ -56,7 +58,8 @@
 	    android:layout_margin="5dip"
 	    android:layout_marginBottom="15dip"
 	    android:lines="4"
-	    android:gravity="top"/>
+	    android:gravity="top"
+        android:hint="Enter a description"/>
 	
 	<!-- Button Create Product -->
 	<Button android:id="@+id/btnCreateProduct"

@@ -5,6 +5,7 @@ import java.util.List;
 
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toast;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
@@ -82,7 +83,7 @@ public class NewProductActivity extends Activity {
 		 * Creating product
 		 * */
 		protected String doInBackground(String... args) {
-			String name = inputName.getText().toString();
+            String name = inputName.getText().toString();
 			String price = inputPrice.getText().toString();
 			String description = inputDesc.getText().toString();
 
@@ -91,6 +92,7 @@ public class NewProductActivity extends Activity {
 			params.add(new BasicNameValuePair("name", name));
 			params.add(new BasicNameValuePair("price", price));
 			params.add(new BasicNameValuePair("description", description));
+
 
 			// getting JSON Object
 			// Note that create product url accepts POST method
