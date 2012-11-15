@@ -62,7 +62,7 @@ public class JSONParser {
 				HttpResponse httpResponse = httpClient.execute(httpGet);
 				HttpEntity httpEntity = httpResponse.getEntity();
 				is = httpEntity.getContent();
-			}			
+			}
 			
 
 		} catch (UnsupportedEncodingException e) {

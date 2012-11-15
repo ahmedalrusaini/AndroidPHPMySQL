@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 
 import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.preference.DialogPreference;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.*;
@@ -26,7 +28,7 @@ public class AllProductsActivity extends ListActivity {
 
 	// Progress Dialog
 	private ProgressDialog pDialog;
-    private AlertDialog alerta;
+    private AlertDialog.Builder alerta;
 
 	// Creating JSON Parser object
 	JSONParser jParser = new JSONParser();
@@ -103,8 +105,8 @@ public class AllProductsActivity extends ListActivity {
 	 * Background Async Task to Load all product by making HTTP Request
 	 * */
 	class LoadAllProducts extends AsyncTask<String, String, String> {
-          boolean existaProduse;
-		/**
+        boolean existaProduse;
+        /**
 		 * Before starting background thread Show Progress Dialog
 		 * */
 		@Override
@@ -116,11 +118,31 @@ public class AllProductsActivity extends ListActivity {
 			pDialog.setCancelable(false);
 			pDialog.show();
 
-            //Alert Box if no products are displayed
-            AlertDialog.Builder alerta = new AlertDialog.Builder(AllProductsActivity.this);
-            alerta.setTitle("No Products");
-
-		}
+            alerta = new AlertDialog.Builder(AllProductsActivity.this);
+        //    alerta.setTitle("No Products Available");
+            alerta.setMessage("No products are available. Do you want to create one now?");
+            alerta.setCancelable(false);
+            alerta.setPositiveButton("Create Product", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    Intent stalin = new Intent(getApplicationContext(),
+                            NewProductActivity.class);
+                    // Closing all previous activities
+                    stalin.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(stalin);
+                }
+            });
+            alerta.setNegativeButton("Return Home", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    Intent stalin = new Intent(getApplicationContext(),
+                            MainScreenActivity.class);
+                    // Closing all previous activities
+                    stalin.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(stalin);
+                }
+            });
+        }
 
 		/**
 		 * getting All products from url
@@ -199,7 +221,8 @@ public class AllProductsActivity extends ListActivity {
                      * */
                 //if no products are available, display a message or an alert
                         if(existaProduse==false){
-                           Toast.makeText(getApplicationContext(), "Nu exista produse", 4).show();
+                           //Toast.makeText(AllProductsActivity.this, "Nu exista produse", 35).show();
+                            alerta.show();
                        }
 
                      ListAdapter adapter = new SimpleAdapter(
