@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import android.app.AlertDialog;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.*;
@@ -25,6 +26,7 @@ public class AllProductsActivity extends ListActivity {
 
 	// Progress Dialog
 	private ProgressDialog pDialog;
+    private AlertDialog alerta;
 
 	// Creating JSON Parser object
 	JSONParser jParser = new JSONParser();
@@ -101,7 +103,7 @@ public class AllProductsActivity extends ListActivity {
 	 * Background Async Task to Load all product by making HTTP Request
 	 * */
 	class LoadAllProducts extends AsyncTask<String, String, String> {
-
+          boolean existaProduse;
 		/**
 		 * Before starting background thread Show Progress Dialog
 		 * */
@@ -113,6 +115,11 @@ public class AllProductsActivity extends ListActivity {
 			pDialog.setIndeterminate(false);
 			pDialog.setCancelable(false);
 			pDialog.show();
+
+            //Alert Box if no products are displayed
+            AlertDialog.Builder alerta = new AlertDialog.Builder(AllProductsActivity.this);
+            alerta.setTitle("No Products");
+
 		}
 
 		/**
@@ -132,6 +139,7 @@ public class AllProductsActivity extends ListActivity {
 				int success = json.getInt(TAG_SUCCESS);
 
 				if (success == 1) {
+                    existaProduse = true;
 					// products found
 					// Getting Array of Products
 					products = json.getJSONArray(TAG_PRODUCTS);
@@ -155,13 +163,19 @@ public class AllProductsActivity extends ListActivity {
 						productsList.add(map);
 					}
 				} else {
+
+                //set variable existaProduse to false
+                    existaProduse = false;
+
 					// no products found
 					// Launch Add New product Activity
-					Intent i = new Intent(getApplicationContext(),
+				/*	Intent i = new Intent(getApplicationContext(),
 							NewProductActivity.class);
 					// Closing all previous activities
 					i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-					startActivity(i);
+					startActivity(i);  */
+
+
 				}
 			} catch (JSONException e) {
 				e.printStackTrace();
@@ -177,15 +191,18 @@ public class AllProductsActivity extends ListActivity {
  		protected void onPostExecute(String file_url) {
 			// dismiss the dialog after getting all products
 			pDialog.dismiss();
-
-
 			// updating UI from Background Thread
 			runOnUiThread(new Runnable() {
                 public void run() {
                     /**
                      * Updating parsed JSON data into ListView
                      * */
-                    ListAdapter adapter = new SimpleAdapter(
+                //if no products are available, display a message or an alert
+                        if(existaProduse==false){
+                           Toast.makeText(getApplicationContext(), "Nu exista produse", 4).show();
+                       }
+
+                     ListAdapter adapter = new SimpleAdapter(
                             AllProductsActivity.this, productsList,
                             R.layout.list_item, new String[]{TAG_PID,
                             TAG_NAME},
