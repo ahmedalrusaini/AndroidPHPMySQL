@@ -6,26 +6,19 @@
         <option name="device" value="2.7in QVGA" />
         <option name="dockMode" value="" />
         <option name="nightMode" value="notnight" />
-        <option name="targetHashString" value="android-16" />
+        <option name="targetHashString" value="android-15" />
         <option name="theme" value="Theme" />
       </GlobalState>
     </option>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84fed766-89d0-4b61-a54e-85548399a337" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/AndroidPHPMySQL/drawable-hdpi/app_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/app_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.res" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.res" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.unaligned" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.unaligned" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/classes.dex" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$1.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$1.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidPHPMySQL.iml" afterPath="$PROJECT_DIR$/AndroidPHPMySQL.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/R.java" afterPath="$PROJECT_DIR$/gen/com/example/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_screen.xml" afterPath="$PROJECT_DIR$/res/layout/main_screen.xml" />
     </list>
     <ignored path="AndroidPHPMySQL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,7 +89,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/menus/menu.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main_screen.xml" />
         <option value="$PROJECT_DIR$/res/menu/menu.xml" />
         <option value="$PROJECT_DIR$/src/com/example/EditProductActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/MainScreenActivity.java" />
@@ -105,6 +97,10 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AllProductsActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/no_products.xml" />
+        <option value="$PROJECT_DIR$/res/color/general_colors.xml" />
+        <option value="$PROJECT_DIR$/res/values/color/colors.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main_screen.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
       </list>
     </option>
   </component>
@@ -145,6 +141,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,11 +179,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,21 +235,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -267,6 +263,9 @@
       <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
       <recent name="C:\Users\Marius Bob\IdeaProjects\AndroidPHPMySQL\res\drawable-hdpi" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius Bob\IdeaProjects\AndroidPHPMySQL\res\values" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.AndroidPHPMySQL">
@@ -537,26 +536,26 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.84709823" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17637627" sideWeight="0.81473213" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15290178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17637627" sideWeight="0.81473213" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20424107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.77790177" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -641,11 +640,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="708" selection-end="736" vertical-scroll-proportion="0.45671642" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="137" selection-end="137" vertical-scroll-proportion="0.10321101" />
@@ -689,6 +683,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/AllProductsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="149" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.58688146" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="72" selection-start="701" selection-end="701" vertical-scroll-proportion="0.39480874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="83" selection-end="83" vertical-scroll-proportion="0.04644809">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -748,6 +756,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
