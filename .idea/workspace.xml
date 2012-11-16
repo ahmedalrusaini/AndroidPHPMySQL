@@ -13,13 +13,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84fed766-89d0-4b61-a54e-85548399a337" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/no_products.xml" />
-      <change type="DELETED" beforePath="C:\Users\Marius Bob\IdeaProjects\AndroidPHPMySQL\res\drawable-hdpi\app_logo.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/AndroidPHPMySQL/drawable-hdpi/app_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/app_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.res" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.res" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.unaligned" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk.unaligned" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/AndroidPHPMySQL.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/classes.dex" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$1.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$1.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity$LoadAllProducts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity.class" afterPath="$PROJECT_DIR$/out/production/AndroidPHPMySQL/com/example/AllProductsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/R.java" afterPath="$PROJECT_DIR$/gen/com/example/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/AllProductsActivity.java" afterPath="$PROJECT_DIR$/src/com/example/AllProductsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/EditProductActivity.java" afterPath="$PROJECT_DIR$/src/com/example/EditProductActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/JSONParser.java" afterPath="$PROJECT_DIR$/src/com/example/JSONParser.java" />
     </list>
     <ignored path="AndroidPHPMySQL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,30 +145,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidPHPMySQL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidPHPMySQL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,6 +215,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidPHPMySQL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidPHPMySQL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,11 +254,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -309,24 +315,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -352,6 +340,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -500,7 +506,11 @@
       <created>1352894690671</created>
       <updated>1352894690671</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added no_products.xml layout">
+      <created>1353066681246</created>
+      <updated>1353066681246</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -527,9 +537,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.77790177" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -541,9 +550,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17637627" sideWeight="0.81473213" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17637627" sideWeight="0.81473213" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15290178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.77790177" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -589,7 +599,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added options menu + Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="added no_products.xml layout" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -606,6 +616,7 @@
     <MESSAGE value="changed manifest file" />
     <MESSAGE value="added options menu" />
     <MESSAGE value="added options menu + Home" />
+    <MESSAGE value="added no_products.xml layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -672,19 +683,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/no_products.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="60" selection-start="935" selection-end="935" vertical-scroll-proportion="0.33761683">
-          <folding />
-        </state>
+        <state line="17" column="60" selection-start="935" selection-end="935" vertical-scroll-proportion="0.33761683" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AllProductsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="149" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.58688146">
-          <folding>
-            <element signature="e#3672#4141#0" expanded="true" />
-            <element signature="e#4126#4127#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="52" column="149" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.58688146" />
       </provider>
     </entry>
   </component>
