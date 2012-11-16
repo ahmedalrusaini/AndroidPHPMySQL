@@ -188,7 +188,6 @@ public class AllProductsActivity extends ListActivity {
 
                 //set variable existaProduse to false
                     existaProduse = false;
-
 					// no products found
 					// Launch Add New product Activity
 				/*	Intent i = new Intent(getApplicationContext(),
@@ -196,8 +195,6 @@ public class AllProductsActivity extends ListActivity {
 					// Closing all previous activities
 					i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 					startActivity(i);  */
-
-
 				}
 			} catch (JSONException e) {
 				e.printStackTrace();
