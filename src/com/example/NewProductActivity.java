@@ -93,12 +93,12 @@ public class NewProductActivity extends Activity {
 			params.add(new BasicNameValuePair("price", price));
 			params.add(new BasicNameValuePair("description", description));
 
-
 			// getting JSON Object
 			// Note that create product url accepts POST method
 			JSONObject json = jsonParser.makeHttpRequest(url_create_product,
 					"POST", params);
-			
+			System.out.println("POST: " + url_create_product);
+
 			// check log cat fro response
 			Log.d("Create Response", json.toString());
 

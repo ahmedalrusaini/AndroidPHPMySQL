@@ -152,6 +152,7 @@ public class AllProductsActivity extends ListActivity {
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
 			// getting JSON string from URL
 			JSONObject json = jParser.makeHttpRequest(url_all_products, "GET", params);
+            System.out.println("GET: " + url_all_products);
 			
 			// Check your log cat for JSON reponse
 			Log.d("All Products: ", json.toString());
