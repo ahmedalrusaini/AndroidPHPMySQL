@@ -6,7 +6,6 @@ import java.util.List;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.preference.DialogPreference;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.*;
@@ -44,6 +43,7 @@ public class AllProductsActivity extends ListActivity {
 	private static final String TAG_PID = "pid";
 	private static final String TAG_NAME = "name";
     private static final String TAG_PRICE = "price";
+    private static final String TAG_DESCRIPTION = "description";
 
 	// products JSONArray
 	JSONArray products = null;
@@ -70,14 +70,18 @@ public class AllProductsActivity extends ListActivity {
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
 				// getting values from selected ListItem
-				String pid = ((TextView) view.findViewById(R.id.pid)).getText()
-						.toString();
-
+				String pid = ((TextView) view.findViewById(R.id.pid)).getText().toString();
+                String name = ((TextView) view.findViewById(R.id.name)).getText().toString();
+                String price = ((TextView) view.findViewById(R.id.price)).getText().toString();
+                String description = ((TextView) view.findViewById(R.id.description)).getText().toString();
 				// Starting new intent
 				Intent in = new Intent(getApplicationContext(),
-						EditProductActivity.class);
+						ViewProductActivity.class);
 				// sending pid to next activity
 				in.putExtra(TAG_PID, pid);
+                in.putExtra(TAG_NAME,name);
+                in.putExtra(TAG_PRICE, price);
+                in.putExtra(TAG_DESCRIPTION, description);
 				
 				// starting new activity and expecting some response back
 				startActivityForResult(in, 100);
@@ -176,6 +180,7 @@ public class AllProductsActivity extends ListActivity {
 						String id = c.getString(TAG_PID);
 						String name = c.getString(TAG_NAME);
                         String price = c.getString(TAG_PRICE).concat("$");
+                        String description = c.getString(TAG_DESCRIPTION);
 
 						// creating new HashMap
 						HashMap<String, String> map = new HashMap<String, String>();
@@ -184,9 +189,12 @@ public class AllProductsActivity extends ListActivity {
 						map.put(TAG_PID, id);
 						map.put(TAG_NAME, name);
                         map.put(TAG_PRICE, price);
+                        map.put(TAG_DESCRIPTION, description);
 
 						// adding HashList to ArrayList
 						productsList.add(map);
+
+
 					}
 				} else {
 
@@ -229,8 +237,8 @@ public class AllProductsActivity extends ListActivity {
                      ListAdapter adapter = new SimpleAdapter(
                             AllProductsActivity.this, productsList,
                             R.layout.list_item, new String[]{TAG_PID,
-                            TAG_NAME, TAG_PRICE},
-                            new int[]{R.id.pid, R.id.name, R.id.price});
+                            TAG_NAME, TAG_PRICE, TAG_DESCRIPTION},
+                            new int[]{R.id.pid, R.id.name, R.id.price, R.id.description});
                     // updating listview
                     setListAdapter(adapter);
                 }

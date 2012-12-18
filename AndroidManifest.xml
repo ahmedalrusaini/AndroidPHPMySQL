@@ -27,6 +27,14 @@
             android:name=".AllProductsActivity"
             android:label="All Products" >
         </activity>
+        <activity
+                android:name=".EditProductActivity"
+                android:label="All Products" >
+        </activity>
+        <activity
+                android:name=".ViewProductActivity"
+                android:label="All Products" >
+        </activity>
 
         <!-- Add Product Activity -->
         <activity
@@ -34,11 +42,6 @@
             android:label="Add New Product" >
         </activity>
 
-        <!-- Edit Product Activity -->
-        <activity
-            android:name=".EditProductActivity"
-            android:label="Edit Product" >
-        </activity>
     </application>
 
     <!--  Internet Permissions -->

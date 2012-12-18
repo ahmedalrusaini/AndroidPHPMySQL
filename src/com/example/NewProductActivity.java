@@ -6,6 +6,7 @@ import java.util.List;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
+import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
@@ -96,10 +97,12 @@ public class NewProductActivity extends Activity {
 			// getting JSON Object
 			// Note that create product url accepts POST method
 			JSONObject json = jsonParser.makeHttpRequest(url_create_product,
-					"POST", params);
+                    "POST", params);
 			System.out.println("POST: " + url_create_product);
 
-			// check log cat fro response
+            Log.i("Praeda","<jsonobject>\n"+json.toString()+"\n</jsonobject>");
+
+            // check log cat for response
 			Log.d("Create Response", json.toString());
 
 			// check for success tag
